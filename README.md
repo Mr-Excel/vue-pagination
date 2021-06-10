@@ -1,5 +1,6 @@
 # vue-pagination
 
+```js
 <template>
   <customPagination
     :current="current"
@@ -27,5 +28,4 @@ export default defineComponent({
   },
 });
 </script>
-
-<style scoped></style>
+```
