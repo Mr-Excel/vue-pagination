@@ -40,7 +40,7 @@
           </svg>
         </div>
       </div>
-      <ul class="flex items-center">
+      <ul class="flex items-center __pagination_li">
         <li class="pr-6">
           <a href="#" @click.prevent="changePage(1)">
             <div
@@ -353,6 +353,9 @@ export default defineComponent({
   height: 32px;
   border: 1px solid #1c4b5a;
   --tw-gradient-from: #e8f7f8;
+}
+.__pagination_li{
+list-style:none;
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
